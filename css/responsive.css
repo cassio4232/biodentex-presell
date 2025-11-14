@@ -1,0 +1,47 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Mobile styles (default for 360px) */
+.container {
+    padding: 16px;
+}
+
+/* Styles for 480px devices */
+@media (min-width: 480px) {
+    .container {
+        padding: 24px;
+    }
+}
+
+/* Styles for 768px devices */
+@media (min-width: 768px) {
+    .container {
+        padding: 32px;
+    }
+}
+
+/* Styles for 1024px devices */
+@media (min-width: 1024px) {
+    .container {
+        padding: 40px;
+    }
+}
+
+/* Touch optimizations */
+button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Additional media queries for touch devices */
+@media (hover: none) {
+    button {
+        padding: 15px;
+        font-size: 1.2em;
+    }
+}
