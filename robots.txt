@@ -1,0 +1,10 @@
+User-agent: *
+Crawl-delay: 10
+
+Sitemap: https://example.com/sitemap.xml
+
+User-agent: Googlebot
+Crawl-delay: 5
+
+User-agent: Bingbot
+Crawl-delay: 3
