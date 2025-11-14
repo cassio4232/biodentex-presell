@@ -1,0 +1,91 @@
+/* Variables */
+:root {
+    --primary-color: #0056b3;
+    --secondary-color: #6c757d;
+    --background-color: #f8f9fa;
+    --font-family: 'Arial', sans-serif;
+    --font-size-base: 16px;
+    --font-size-large: 24px;
+    --font-size-small: 12px;
+    --padding-base: 1rem;
+}
+
+/* Typography */
+body {
+    font-family: var(--font-family);
+    font-size: var(--font-size-base);
+    color: #333;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+}
+
+p {
+    margin-bottom: 1.5rem;
+}
+
+/* Buttons */
+.button {
+    padding: var(--padding-base) 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.button-primary {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.button-secondary {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+.button-primary:hover {
+    background-color: #004494;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 50px 0;
+    color: white;
+}
+
+/* Benefits Section */
+.benefits {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+}
+
+.benefit-item {
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Testimonials */
+.testimonials {
+    background-color: #eee;
+    padding: 2rem;
+}
+
+testimonial {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+}
+
+/* Other Components */
+.card {
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
